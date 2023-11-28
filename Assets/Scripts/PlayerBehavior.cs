@@ -32,8 +32,6 @@ public class PlayerBehavior : MonoBehaviour
     Rigidbody2D m_rb2D;
     SpriteRenderer m_renderer;
 
-    [SerializeField] private ControllerDoor doors;
-
     void Awake()
     {
         m_rb2D = gameObject.GetComponent<Rigidbody2D>();
