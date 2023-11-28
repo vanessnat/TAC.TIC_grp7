@@ -3228,6 +3228,7 @@ MonoBehaviour:
   m_fireBall: {fileID: 1502969918981896, guid: dd8b7b33984359b49a25a7c46d305262, type: 3}
   m_map: {fileID: 1634910905}
   m_dialogDisplayer: {fileID: 92778327}
+  doors: {fileID: 1726393468}
 --- !u!1 &286368726
 GameObject:
   m_ObjectHideFlags: 0
@@ -30134,7 +30135,7 @@ GameObject:
   - component: {fileID: 1201527242}
   - component: {fileID: 1201527241}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: RDC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31500,7 +31501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1375410053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42003,7 +42004,7 @@ GameObject:
   - component: {fileID: 1726393472}
   m_Layer: 0
   m_Name: Door 1
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45144,7 +45145,7 @@ GameObject:
   - component: {fileID: 2105444578}
   m_Layer: 0
   m_Name: Door 2
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
