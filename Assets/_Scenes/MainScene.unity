@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7578969}
   - component: {fileID: 7578968}
+  - component: {fileID: 7578970}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_67 (3)
   m_TagString: Untagged
@@ -207,6 +208,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &7578970
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7578967}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4.5}
+    newSize: {x: 4, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &30518618
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30518620}
   - component: {fileID: 30518619}
+  - component: {fileID: 30518621}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (2)
   m_TagString: Untagged
@@ -291,6 +319,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30.2}
+--- !u!61 &30518621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30518618}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &30520828
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30520830}
   - component: {fileID: 30520829}
+  - component: {fileID: 30520831}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_44
   m_TagString: Untagged
@@ -375,6 +430,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &30520831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30520828}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 23}
+    newSize: {x: 14, y: 23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14, y: 23}
+  m_EdgeRadius: 0
 --- !u!1 &32148058
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32148059}
   - component: {fileID: 32148060}
+  - component: {fileID: 32148061}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (6)
   m_TagString: Untagged
@@ -459,6 +541,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &32148061
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32148058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &40119476
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43549375}
   - component: {fileID: 43549374}
+  - component: {fileID: 43549376}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33 (2)
   m_TagString: Untagged
@@ -627,6 +736,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &43549376
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43549373}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &43676133
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,6 +904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65423586}
   - component: {fileID: 65423585}
+  - component: {fileID: 65423587}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33 (1)
   m_TagString: Untagged
@@ -843,6 +979,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &65423587
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65423584}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &68763365
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +1015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 68763366}
   - component: {fileID: 68763367}
+  - component: {fileID: 68763368}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (4)
   m_TagString: Untagged
@@ -927,6 +1090,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &68763368
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68763365}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &77286732
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +1126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77286734}
   - component: {fileID: 77286733}
+  - component: {fileID: 77286735}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_38
   m_TagString: Untagged
@@ -1011,6 +1201,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &77286735
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77286732}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &88037693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,6 +1412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159497250}
   - component: {fileID: 159497249}
+  - component: {fileID: 159497251}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (2)
   m_TagString: Untagged
@@ -1270,6 +1487,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &159497251
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159497248}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &159944637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,6 +1607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222052121}
   - component: {fileID: 222052120}
+  - component: {fileID: 222052122}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_61
   m_TagString: Untagged
@@ -1438,6 +1682,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &222052122
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222052119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 23, y: 18}
+    newSize: {x: 23, y: 18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 23, y: 18}
+  m_EdgeRadius: 0
 --- !u!1 &239142292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244671294}
   - component: {fileID: 244671295}
+  - component: {fileID: 244671296}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_37 (3)
   m_TagString: Untagged
@@ -1769,6 +2040,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &244671296
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244671293}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &257062973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +2076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257062975}
   - component: {fileID: 257062974}
+  - component: {fileID: 257062976}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40
   m_TagString: Untagged
@@ -1853,6 +2151,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &257062976
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257062973}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &257413455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,6 +2187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257413456}
   - component: {fileID: 257413457}
+  - component: {fileID: 257413458}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_20 (1)
   m_TagString: Untagged
@@ -1937,6 +2262,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &257413458
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257413455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 14}
+    newSize: {x: 7, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &265394342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1947,6 +2298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 265394343}
   - component: {fileID: 265394344}
+  - component: {fileID: 265394345}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (5)
   m_TagString: Untagged
@@ -2021,6 +2373,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &265394345
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265394342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &269988362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,6 +3728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 309305612}
   - component: {fileID: 309305613}
+  - component: {fileID: 309305614}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_65 (1)
   m_TagString: Untagged
@@ -3424,6 +3803,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &309305614
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309305611}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 4}
+    newSize: {x: 8, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &321152342
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,6 +3923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 333525001}
   - component: {fileID: 333525002}
+  - component: {fileID: 333525003}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40 (4)
   m_TagString: Untagged
@@ -3592,6 +3998,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &333525003
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333525000}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &340230957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +4118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 355306172}
   - component: {fileID: 355306171}
+  - component: {fileID: 355306173}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_55
   m_TagString: Untagged
@@ -3760,6 +4193,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &355306173
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355306170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29, y: 15}
+    newSize: {x: 29, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &380527612
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,6 +4229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380527613}
   - component: {fileID: 380527614}
+  - component: {fileID: 380527615}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (2)
   m_TagString: Untagged
@@ -3844,6 +4304,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &380527615
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380527612}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &390159980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,6 +4340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 390159981}
   - component: {fileID: 390159982}
+  - component: {fileID: 390159983}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40 (2)
   m_TagString: Untagged
@@ -3928,6 +4415,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &390159983
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390159980}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &412372467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,6 +4451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 412372469}
   - component: {fileID: 412372468}
+  - component: {fileID: 412372470}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_37 (1)
   m_TagString: Untagged
@@ -4012,6 +4526,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.99}
+--- !u!61 &412372470
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412372467}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &425702558
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,6 +4562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 425702560}
   - component: {fileID: 425702559}
+  - component: {fileID: 425702561}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_20
   m_TagString: Untagged
@@ -4096,6 +4637,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &425702561
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425702558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 14}
+    newSize: {x: 7, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &430594057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,6 +4673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430594058}
   - component: {fileID: 430594059}
+  - component: {fileID: 430594060}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (3)
   m_TagString: Untagged
@@ -4180,6 +4748,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &430594060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430594057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &431685805
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,6 +4784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431685807}
   - component: {fileID: 431685806}
+  - component: {fileID: 431685808}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_42
   m_TagString: Untagged
@@ -4264,6 +4859,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &431685808
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431685805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29, y: 15}
+    newSize: {x: 29, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &470531661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4274,6 +4895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470531663}
   - component: {fileID: 470531662}
+  - component: {fileID: 470531664}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_13
   m_TagString: Untagged
@@ -4348,6 +4970,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &470531664
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470531661}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.5, y: 7.5}
+    newSize: {x: 14.5, y: 7.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.5, y: 7.5}
+  m_EdgeRadius: 0
 --- !u!1 &474757258
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,6 +5006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 474757260}
   - component: {fileID: 474757259}
+  - component: {fileID: 474757261}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (1)
   m_TagString: Untagged
@@ -4432,6 +5081,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.71}
+--- !u!61 &474757261
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474757258}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &489911738
 GameObject:
   m_ObjectHideFlags: 0
@@ -4476,6 +5151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494715282}
   - component: {fileID: 494715281}
+  - component: {fileID: 494715283}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21
   m_TagString: Untagged
@@ -4550,6 +5226,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &494715283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494715280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &511844115
 GameObject:
   m_ObjectHideFlags: 0
@@ -4709,6 +5411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 521124618}
   - component: {fileID: 521124617}
+  - component: {fileID: 521124619}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_43
   m_TagString: Untagged
@@ -4783,6 +5486,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &521124619
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521124616}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 23}
+    newSize: {x: 14, y: 23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14, y: 23}
+  m_EdgeRadius: 0
 --- !u!1 &534768923
 GameObject:
   m_ObjectHideFlags: 0
@@ -4793,6 +5522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534768925}
   - component: {fileID: 534768924}
+  - component: {fileID: 534768926}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46
   m_TagString: Untagged
@@ -4867,6 +5597,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &534768926
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534768923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &538780985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,6 +5633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538780986}
   - component: {fileID: 538780987}
+  - component: {fileID: 538780988}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (8)
   m_TagString: Untagged
@@ -4951,6 +5708,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &538780988
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538780985}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &595150645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5177,6 +5960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 609098955}
   - component: {fileID: 609098954}
+  - component: {fileID: 609098956}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_66
   m_TagString: Untagged
@@ -5251,6 +6035,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &609098956
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609098953}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 5}
+    newSize: {x: 5.5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 5}
+  m_EdgeRadius: 0
 --- !u!1 &609629424
 GameObject:
   m_ObjectHideFlags: 0
@@ -5261,6 +6071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 609629426}
   - component: {fileID: 609629425}
+  - component: {fileID: 609629427}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (4)
   m_TagString: Untagged
@@ -5335,6 +6146,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &609629427
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609629424}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &615289019
 GameObject:
   m_ObjectHideFlags: 0
@@ -5345,6 +6182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 615289021}
   - component: {fileID: 615289020}
+  - component: {fileID: 615289022}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_50
   m_TagString: Untagged
@@ -5419,6 +6257,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &615289022
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615289019}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5, y: 14}
+    newSize: {x: 5, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &615773349
 GameObject:
   m_ObjectHideFlags: 0
@@ -7055,6 +7919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651273517}
   - component: {fileID: 651273518}
+  - component: {fileID: 651273519}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40
   m_TagString: Untagged
@@ -7129,6 +7994,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &651273519
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651273516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &660282197
 GameObject:
   m_ObjectHideFlags: 0
@@ -25564,6 +26455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667369096}
   - component: {fileID: 667369097}
+  - component: {fileID: 667369098}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (9)
   m_TagString: Untagged
@@ -25638,6 +26530,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &667369098
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667369095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &683062504
 GameObject:
   m_ObjectHideFlags: 0
@@ -25794,7 +26712,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1201527242}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &692366451
 TilemapRenderer:
@@ -25921,6 +26839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 698780840}
   - component: {fileID: 698780841}
+  - component: {fileID: 698780842}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (7)
   m_TagString: Untagged
@@ -25995,6 +26914,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &698780842
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698780839}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &707886586
 GameObject:
   m_ObjectHideFlags: 0
@@ -26005,6 +26950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 707886588}
   - component: {fileID: 707886587}
+  - component: {fileID: 707886589}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_66 (2)
   m_TagString: Untagged
@@ -26079,6 +27025,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &707886589
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707886586}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 5}
+    newSize: {x: 5.5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 5}
+  m_EdgeRadius: 0
 --- !u!1 &716256767
 GameObject:
   m_ObjectHideFlags: 0
@@ -26089,6 +27061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716256768}
   - component: {fileID: 716256769}
+  - component: {fileID: 716256770}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (4)
   m_TagString: Untagged
@@ -26163,6 +27136,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &716256770
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716256767}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &727917284
 GameObject:
   m_ObjectHideFlags: 0
@@ -26173,6 +27172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727917286}
   - component: {fileID: 727917285}
+  - component: {fileID: 727917287}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40 (1)
   m_TagString: Untagged
@@ -26247,6 +27247,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &727917287
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727917284}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &730751930
 GameObject:
   m_ObjectHideFlags: 0
@@ -26257,6 +27283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 730751931}
   - component: {fileID: 730751932}
+  - component: {fileID: 730751933}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (3)
   m_TagString: Untagged
@@ -26331,6 +27358,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &730751933
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730751930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &737745427
 GameObject:
   m_ObjectHideFlags: 0
@@ -26341,6 +27394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 737745429}
   - component: {fileID: 737745428}
+  - component: {fileID: 737745430}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48
   m_TagString: Untagged
@@ -26415,6 +27469,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &737745430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737745427}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &812292545
 GameObject:
   m_ObjectHideFlags: 0
@@ -26425,6 +27505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812292546}
   - component: {fileID: 812292547}
+  - component: {fileID: 812292548}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46 (4)
   m_TagString: Untagged
@@ -26499,6 +27580,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &812292548
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812292545}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &837773027
 GameObject:
   m_ObjectHideFlags: 0
@@ -26509,6 +27616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 837773029}
   - component: {fileID: 837773028}
+  - component: {fileID: 837773030}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (1)
   m_TagString: Untagged
@@ -26583,6 +27691,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.03}
+--- !u!61 &837773030
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837773027}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &886762616
 GameObject:
   m_ObjectHideFlags: 0
@@ -26761,6 +27895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912631883}
   - component: {fileID: 912631882}
+  - component: {fileID: 912631884}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40
   m_TagString: Untagged
@@ -26835,6 +27970,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &912631884
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912631881}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &930127195
 GameObject:
   m_ObjectHideFlags: 0
@@ -26845,6 +28006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 930127197}
   - component: {fileID: 930127196}
+  - component: {fileID: 930127198}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_67 (1)
   m_TagString: Untagged
@@ -26919,6 +28081,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &930127198
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930127195}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4.5}
+    newSize: {x: 4, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &930426102
 GameObject:
   m_ObjectHideFlags: 0
@@ -26929,6 +28117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 930426104}
   - component: {fileID: 930426103}
+  - component: {fileID: 930426105}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_66 (1)
   m_TagString: Untagged
@@ -27003,6 +28192,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &930426105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930426102}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 5}
+    newSize: {x: 5.5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 5}
+  m_EdgeRadius: 0
 --- !u!1 &941850288
 GameObject:
   m_ObjectHideFlags: 0
@@ -27013,6 +28228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941850290}
   - component: {fileID: 941850289}
+  - component: {fileID: 941850291}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_45
   m_TagString: Untagged
@@ -27087,6 +28303,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &941850291
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941850288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 24}
+    newSize: {x: 14, y: 24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14, y: 24}
+  m_EdgeRadius: 0
 --- !u!1 &945073719
 GameObject:
   m_ObjectHideFlags: 0
@@ -27292,6 +28534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1000896709}
   - component: {fileID: 1000896708}
+  - component: {fileID: 1000896710}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_65
   m_TagString: Untagged
@@ -27366,6 +28609,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1000896710
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000896707}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 4}
+    newSize: {x: 8, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 4}
+  m_EdgeRadius: 0
 --- !u!1 &1001103433
 GameObject:
   m_ObjectHideFlags: 0
@@ -27376,6 +28645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1001103435}
   - component: {fileID: 1001103434}
+  - component: {fileID: 1001103436}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33
   m_TagString: Untagged
@@ -27450,6 +28720,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1001103436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001103433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1010060928
 GameObject:
   m_ObjectHideFlags: 0
@@ -29126,6 +30422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1013086206}
   - component: {fileID: 1013086205}
+  - component: {fileID: 1013086207}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28
   m_TagString: Untagged
@@ -29200,6 +30497,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.79}
+--- !u!61 &1013086207
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013086204}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1016022525
 GameObject:
   m_ObjectHideFlags: 0
@@ -29210,6 +30533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1016022527}
   - component: {fileID: 1016022526}
+  - component: {fileID: 1016022528}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (1)
   m_TagString: Untagged
@@ -29284,6 +30608,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1016022528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016022525}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &1042110612
 GameObject:
   m_ObjectHideFlags: 0
@@ -29294,6 +30644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042110614}
   - component: {fileID: 1042110613}
+  - component: {fileID: 1042110615}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (1)
   m_TagString: Untagged
@@ -29368,6 +30719,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1042110615
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042110612}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1078636745
 GameObject:
   m_ObjectHideFlags: 0
@@ -29462,6 +30839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084158040}
   - component: {fileID: 1084158041}
+  - component: {fileID: 1084158042}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_61
   m_TagString: Untagged
@@ -29536,6 +30914,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1084158042
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084158039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 23, y: 18}
+    newSize: {x: 23, y: 18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 23, y: 18}
+  m_EdgeRadius: 0
 --- !u!1 &1095467749
 GameObject:
   m_ObjectHideFlags: 0
@@ -29546,6 +30950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1095467751}
   - component: {fileID: 1095467750}
+  - component: {fileID: 1095467752}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21
   m_TagString: Untagged
@@ -29620,6 +31025,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1095467752
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095467749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &1098558768
 GameObject:
   m_ObjectHideFlags: 0
@@ -29630,6 +31061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098558770}
   - component: {fileID: 1098558769}
+  - component: {fileID: 1098558771}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (2)
   m_TagString: Untagged
@@ -29704,6 +31136,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1098558771
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098558768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &1134180369
 GameObject:
   m_ObjectHideFlags: 0
@@ -29714,6 +31172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134180371}
   - component: {fileID: 1134180370}
+  - component: {fileID: 1134180372}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_6
   m_TagString: Untagged
@@ -29788,6 +31247,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1134180372
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134180369}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 9.5}
+    newSize: {x: 16, y: 9.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 9.5}
+  m_EdgeRadius: 0
 --- !u!1 &1141640637
 GameObject:
   m_ObjectHideFlags: 0
@@ -29798,6 +31283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1141640638}
   - component: {fileID: 1141640639}
+  - component: {fileID: 1141640640}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (7)
   m_TagString: Untagged
@@ -29872,6 +31358,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1141640640
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141640637}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &1148792613
 GameObject:
   m_ObjectHideFlags: 0
@@ -29882,6 +31394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148792615}
   - component: {fileID: 1148792614}
+  - component: {fileID: 1148792616}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33 (6)
   m_TagString: Untagged
@@ -29956,6 +31469,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1148792616
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148792613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1163650530
 GameObject:
   m_ObjectHideFlags: 0
@@ -29966,6 +31505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163650531}
   - component: {fileID: 1163650532}
+  - component: {fileID: 1163650533}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (6)
   m_TagString: Untagged
@@ -30040,6 +31580,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1163650533
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163650530}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1196751665
 GameObject:
   m_ObjectHideFlags: 0
@@ -30050,6 +31616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1196751667}
   - component: {fileID: 1196751666}
+  - component: {fileID: 1196751668}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_66
   m_TagString: Untagged
@@ -30124,6 +31691,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1196751668
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196751665}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 5}
+    newSize: {x: 5.5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 5}
+  m_EdgeRadius: 0
 --- !u!1 &1201527240
 GameObject:
   m_ObjectHideFlags: 0
@@ -30168,8 +31761,6 @@ Transform:
   - {fileID: 1869623552}
   - {fileID: 1012373324}
   - {fileID: 1237228815}
-  - {fileID: 1726393470}
-  - {fileID: 2105444576}
   - {fileID: 692366450}
   - {fileID: 1806274773}
   m_Father: {fileID: 0}
@@ -30185,6 +31776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216242668}
   - component: {fileID: 1216242667}
+  - component: {fileID: 1216242669}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (3)
   m_TagString: Untagged
@@ -30259,6 +31851,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1216242669
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216242666}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1235698009
 GameObject:
   m_ObjectHideFlags: 0
@@ -30269,6 +31887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235698010}
   - component: {fileID: 1235698011}
+  - component: {fileID: 1235698012}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_22 (1)
   m_TagString: Untagged
@@ -30343,6 +31962,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1235698012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235698009}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 14}
+    newSize: {x: 7, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &1237228814
 GameObject:
   m_ObjectHideFlags: 0
@@ -30352,6 +31997,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1237228815}
+  - component: {fileID: 1237228817}
+  - component: {fileID: 1237228816}
   m_Layer: 0
   m_Name: Doors
   m_TagString: Untagged
@@ -30473,6 +32120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1255074406}
   - component: {fileID: 1255074407}
+  - component: {fileID: 1255074408}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_38 (2)
   m_TagString: Untagged
@@ -30547,6 +32195,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1255074408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255074405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &1259263431
 GameObject:
   m_ObjectHideFlags: 0
@@ -30557,6 +32231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1259263433}
   - component: {fileID: 1259263432}
+  - component: {fileID: 1259263434}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40 (2)
   m_TagString: Untagged
@@ -30631,6 +32306,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1259263434
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259263431}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1260587234
 GameObject:
   m_ObjectHideFlags: 0
@@ -30641,6 +32342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1260587236}
   - component: {fileID: 1260587235}
+  - component: {fileID: 1260587237}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46 (1)
   m_TagString: Untagged
@@ -30715,6 +32417,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1260587237
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260587234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &1267605827
 GameObject:
   m_ObjectHideFlags: 0
@@ -30836,6 +32564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1278566064}
   - component: {fileID: 1278566063}
+  - component: {fileID: 1278566065}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33 (5)
   m_TagString: Untagged
@@ -30910,6 +32639,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1278566065
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278566062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1279881876
 GameObject:
   m_ObjectHideFlags: 0
@@ -30920,6 +32675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279881877}
   - component: {fileID: 1279881878}
+  - component: {fileID: 1279881879}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (5)
   m_TagString: Untagged
@@ -30994,6 +32750,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1279881879
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279881876}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &1307985746
 GameObject:
   m_ObjectHideFlags: 0
@@ -31037,6 +32819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1316661130}
   - component: {fileID: 1316661131}
+  - component: {fileID: 1316661132}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (6)
   m_TagString: Untagged
@@ -31111,6 +32894,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1316661132
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316661129}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1322931380
 GameObject:
   m_ObjectHideFlags: 0
@@ -31121,6 +32930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1322931381}
   - component: {fileID: 1322931382}
+  - component: {fileID: 1322931383}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_22
   m_TagString: Untagged
@@ -31195,6 +33005,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1322931383
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322931380}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 14}
+    newSize: {x: 7, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &1341873551
 GameObject:
   m_ObjectHideFlags: 0
@@ -31205,6 +33041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341873553}
   - component: {fileID: 1341873552}
+  - component: {fileID: 1341873554}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (1)
   m_TagString: Untagged
@@ -31279,6 +33116,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1341873554
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341873551}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &1356307399
 GameObject:
   m_ObjectHideFlags: 0
@@ -31290,6 +33153,7 @@ GameObject:
   - component: {fileID: 1356307400}
   - component: {fileID: 1356307402}
   - component: {fileID: 1356307401}
+  - component: {fileID: 1356307403}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -31399,6 +33263,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &1356307403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356307399}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 22}
+  m_EdgeRadius: 0
 --- !u!1 &1359655834
 GameObject:
   m_ObjectHideFlags: 0
@@ -31409,6 +33299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359655835}
   - component: {fileID: 1359655836}
+  - component: {fileID: 1359655837}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40 (3)
   m_TagString: Untagged
@@ -31483,6 +33374,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1359655837
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359655834}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1375410052
 GameObject:
   m_ObjectHideFlags: 0
@@ -31817,6 +33734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1417188631}
   - component: {fileID: 1417188630}
+  - component: {fileID: 1417188632}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28
   m_TagString: Untagged
@@ -31891,6 +33809,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -12.07}
+--- !u!61 &1417188632
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417188629}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1426215181
 GameObject:
   m_ObjectHideFlags: 0
@@ -31901,6 +33845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426215183}
   - component: {fileID: 1426215182}
+  - component: {fileID: 1426215184}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_35
   m_TagString: Untagged
@@ -31975,6 +33920,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1426215184
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426215181}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29, y: 12.5}
+    newSize: {x: 29, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &1430173577
 GameObject:
   m_ObjectHideFlags: 0
@@ -40436,6 +42407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495501167}
   - component: {fileID: 1495501168}
+  - component: {fileID: 1495501169}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (6)
   m_TagString: Untagged
@@ -40510,6 +42482,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1495501169
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495501166}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &1499645349
 GameObject:
   m_ObjectHideFlags: 0
@@ -40520,6 +42518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499645350}
   - component: {fileID: 1499645351}
+  - component: {fileID: 1499645352}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_67 (1)
   m_TagString: Untagged
@@ -40594,6 +42593,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1499645352
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499645349}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4.5}
+    newSize: {x: 4, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1518916239
 GameObject:
   m_ObjectHideFlags: 0
@@ -40831,6 +42856,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1533280158}
   - component: {fileID: 1533280159}
+  - component: {fileID: 1533280160}
+  - component: {fileID: 1533280161}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_40 (1)
   m_TagString: Untagged
@@ -40905,6 +42932,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1533280160
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533280157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
+--- !u!61 &1533280161
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533280157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1533388762
 GameObject:
   m_ObjectHideFlags: 0
@@ -40915,6 +42994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533388763}
   - component: {fileID: 1533388764}
+  - component: {fileID: 1533388765}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_37 (2)
   m_TagString: Untagged
@@ -40989,6 +43069,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1533388765
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533388762}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1551088202
 GameObject:
   m_ObjectHideFlags: 0
@@ -40999,6 +43105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551088204}
   - component: {fileID: 1551088203}
+  - component: {fileID: 1551088205}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_60
   m_TagString: Untagged
@@ -41073,6 +43180,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1551088205
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551088202}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 15}
+    newSize: {x: 14, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1561266992
 GameObject:
   m_ObjectHideFlags: 0
@@ -41083,6 +43216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561266993}
   - component: {fileID: 1561266994}
+  - component: {fileID: 1561266995}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (4)
   m_TagString: Untagged
@@ -41157,6 +43291,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1561266995
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561266992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 10}
+    newSize: {x: 16, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &1591320750
 GameObject:
   m_ObjectHideFlags: 0
@@ -41167,6 +43327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1591320751}
   - component: {fileID: 1591320752}
+  - component: {fileID: 1591320753}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46 (6)
   m_TagString: Untagged
@@ -41241,6 +43402,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1591320753
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591320750}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &1599938250
 GameObject:
   m_ObjectHideFlags: 0
@@ -41251,6 +43438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1599938252}
   - component: {fileID: 1599938251}
+  - component: {fileID: 1599938253}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (5)
   m_TagString: Untagged
@@ -41325,6 +43513,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1599938253
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599938250}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1615736456
 GameObject:
   m_ObjectHideFlags: 0
@@ -41335,6 +43549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1615736457}
   - component: {fileID: 1615736458}
+  - component: {fileID: 1615736459}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46 (5)
   m_TagString: Untagged
@@ -41409,6 +43624,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1615736459
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615736456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &1624840110
 GameObject:
   m_ObjectHideFlags: 0
@@ -41419,6 +43660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1624840111}
   - component: {fileID: 1624840112}
+  - component: {fileID: 1624840113}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (5)
   m_TagString: Untagged
@@ -41493,6 +43735,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1624840113
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624840110}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1628861317
 GameObject:
   m_ObjectHideFlags: 0
@@ -41503,6 +43771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628861318}
   - component: {fileID: 1628861319}
+  - component: {fileID: 1628861320}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29 (2)
   m_TagString: Untagged
@@ -41577,6 +43846,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1628861320
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628861317}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &1629382929
 GameObject:
   m_ObjectHideFlags: 0
@@ -41748,6 +44043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1682080047}
   - component: {fileID: 1682080048}
+  - component: {fileID: 1682080049}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_66 (1)
   m_TagString: Untagged
@@ -41822,6 +44118,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1682080049
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682080046}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 5}
+    newSize: {x: 5.5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 5}
+  m_EdgeRadius: 0
 --- !u!1 &1708128697
 GameObject:
   m_ObjectHideFlags: 0
@@ -41832,6 +44154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1708128699}
   - component: {fileID: 1708128698}
+  - component: {fileID: 1708128700}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33 (3)
   m_TagString: Untagged
@@ -41906,6 +44229,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1708128700
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708128697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &1712776272
 GameObject:
   m_ObjectHideFlags: 0
@@ -41916,6 +44265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712776274}
   - component: {fileID: 1712776273}
+  - component: {fileID: 1712776275}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_67
   m_TagString: Untagged
@@ -41990,6 +44340,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1712776275
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712776272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4.5}
+    newSize: {x: 4, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1726393468
 GameObject:
   m_ObjectHideFlags: 0
@@ -42000,8 +44376,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1726393470}
   - component: {fileID: 1726393469}
-  - component: {fileID: 1726393471}
-  - component: {fileID: 1726393472}
   m_Layer: 0
   m_Name: Door 1
   m_TagString: Door
@@ -42086,6 +44460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761424397}
   - component: {fileID: 1761424396}
+  - component: {fileID: 1761424398}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_37
   m_TagString: Untagged
@@ -42160,6 +44535,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.07}
+--- !u!61 &1761424398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761424395}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1793217733
 GameObject:
   m_ObjectHideFlags: 0
@@ -42170,6 +44571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793217734}
   - component: {fileID: 1793217735}
+  - component: {fileID: 1793217736}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (7)
   m_TagString: Untagged
@@ -42244,6 +44646,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1793217736
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793217733}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1806274772
 GameObject:
   m_ObjectHideFlags: 0
@@ -42399,7 +44827,7 @@ Transform:
   - {fileID: 1148792615}
   - {fileID: 321152344}
   m_Father: {fileID: 1201527242}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1818786313
 GameObject:
@@ -42411,6 +44839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1818786315}
   - component: {fileID: 1818786314}
+  - component: {fileID: 1818786316}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_5
   m_TagString: Untagged
@@ -42485,6 +44914,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1818786316
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818786313}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.5, y: 13}
+    newSize: {x: 8.5, y: 13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.5, y: 13}
+  m_EdgeRadius: 0
 --- !u!1 &1822396968
 GameObject:
   m_ObjectHideFlags: 0
@@ -42495,6 +44950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822396970}
   - component: {fileID: 1822396969}
+  - component: {fileID: 1822396971}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_59
   m_TagString: Untagged
@@ -42569,6 +45025,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1822396971
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822396968}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 14}
+    newSize: {x: 14, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &1852039531
 GameObject:
   m_ObjectHideFlags: 0
@@ -43618,6 +46100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878304816}
   - component: {fileID: 1878304817}
+  - component: {fileID: 1878304818}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (11)
   m_TagString: Untagged
@@ -43692,6 +46175,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1878304818
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878304815}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1903022389
 GameObject:
   m_ObjectHideFlags: 0
@@ -43804,6 +46313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1906843059}
   - component: {fileID: 1906843058}
+  - component: {fileID: 1906843060}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_61
   m_TagString: Untagged
@@ -43878,6 +46388,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1906843060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906843057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 23, y: 18}
+    newSize: {x: 23, y: 18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 23, y: 18}
+  m_EdgeRadius: 0
 --- !u!1 &1915404994
 GameObject:
   m_ObjectHideFlags: 0
@@ -43888,6 +46424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1915404995}
   - component: {fileID: 1915404996}
+  - component: {fileID: 1915404997}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_48 (10)
   m_TagString: Untagged
@@ -43962,6 +46499,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1915404997
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915404994}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.5, y: 14.5}
+    newSize: {x: 29.5, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29.5, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &1924695577
 GameObject:
   m_ObjectHideFlags: 0
@@ -44056,6 +46619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928376228}
   - component: {fileID: 1928376229}
+  - component: {fileID: 1928376230}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (7)
   m_TagString: Untagged
@@ -44130,6 +46694,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1928376230
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928376227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &1962749125
 GameObject:
   m_ObjectHideFlags: 0
@@ -44140,6 +46730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962749127}
   - component: {fileID: 1962749126}
+  - component: {fileID: 1962749128}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_67
   m_TagString: Untagged
@@ -44214,6 +46805,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1962749128
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962749125}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4.5}
+    newSize: {x: 4, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1971875122
 GameObject:
   m_ObjectHideFlags: 0
@@ -44308,6 +46925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1980815419}
   - component: {fileID: 1980815418}
+  - component: {fileID: 1980815420}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_67 (2)
   m_TagString: Untagged
@@ -44382,6 +47000,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1980815420
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980815417}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4.5}
+    newSize: {x: 4, y: 4.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.5}
+  m_EdgeRadius: 0
 --- !u!1 &1985174327
 GameObject:
   m_ObjectHideFlags: 0
@@ -44392,6 +47036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1985174329}
   - component: {fileID: 1985174328}
+  - component: {fileID: 1985174330}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46 (3)
   m_TagString: Untagged
@@ -44466,6 +47111,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1985174330
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985174327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!850595691 &2016078994
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -44638,6 +47309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057403990}
   - component: {fileID: 2057403989}
+  - component: {fileID: 2057403991}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_38 (1)
   m_TagString: Untagged
@@ -44712,6 +47384,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2057403991
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057403988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &2060179137
 GameObject:
   m_ObjectHideFlags: 0
@@ -44722,6 +47420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2060179138}
   - component: {fileID: 2060179139}
+  - component: {fileID: 2060179140}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_28 (3)
   m_TagString: Untagged
@@ -44796,6 +47495,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2060179140
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060179137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 3.5}
+    newSize: {x: 7, y: 3.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 3.5}
+  m_EdgeRadius: 0
 --- !u!1 &2085342618
 GameObject:
   m_ObjectHideFlags: 0
@@ -44806,6 +47531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085342619}
   - component: {fileID: 2085342620}
+  - component: {fileID: 2085342621}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_20 (2)
   m_TagString: Untagged
@@ -44880,6 +47606,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2085342621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085342618}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 14}
+    newSize: {x: 7, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 14}
+  m_EdgeRadius: 0
 --- !u!1 &2090540044
 GameObject:
   m_ObjectHideFlags: 0
@@ -44974,6 +47726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090580271}
   - component: {fileID: 2090580270}
+  - component: {fileID: 2090580272}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29
   m_TagString: Untagged
@@ -45048,6 +47801,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.95}
+--- !u!61 &2090580272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090580269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &2102085700
 GameObject:
   m_ObjectHideFlags: 0
@@ -45058,6 +47837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2102085701}
   - component: {fileID: 2102085702}
+  - component: {fileID: 2102085703}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_38 (3)
   m_TagString: Untagged
@@ -45132,6 +47912,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2102085703
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102085700}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &2105444575
 GameObject:
   m_ObjectHideFlags: 0
@@ -45142,7 +47948,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2105444576}
   - component: {fileID: 2105444577}
-  - component: {fileID: 2105444578}
   m_Layer: 0
   m_Name: Door 2
   m_TagString: Door
@@ -45227,6 +48032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129863120}
   - component: {fileID: 2129863119}
+  - component: {fileID: 2129863121}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_33 (4)
   m_TagString: Untagged
@@ -45301,6 +48107,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2129863121
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129863118}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11, y: 15}
+    newSize: {x: 11, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11, y: 15}
+  m_EdgeRadius: 0
 --- !u!1 &2136029336
 GameObject:
   m_ObjectHideFlags: 0
@@ -45395,6 +48227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2139671938}
   - component: {fileID: 2139671937}
+  - component: {fileID: 2139671939}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_29
   m_TagString: Untagged
@@ -45469,6 +48302,32 @@ Transform:
   m_Father: {fileID: 1806274773}
   m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2139671939
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139671936}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5}
+  m_EdgeRadius: 0
 --- !u!1 &2146057604
 GameObject:
   m_ObjectHideFlags: 0
@@ -45479,6 +48338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2146057605}
   - component: {fileID: 2146057606}
+  - component: {fileID: 2146057607}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_46 (2)
   m_TagString: Untagged
@@ -45553,6 +48413,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2146057607
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146057604}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.5, y: 12.5}
+    newSize: {x: 12.5, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.5, y: 12.5}
+  m_EdgeRadius: 0
 --- !u!1 &1042965622966656
 GameObject:
   m_ObjectHideFlags: 0
