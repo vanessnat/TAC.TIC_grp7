@@ -6,6 +6,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 // Represents the cardinal directions (South, North, West, East)
@@ -30,6 +31,8 @@ public class PlayerBehavior : MonoBehaviour
 
     Rigidbody2D m_rb2D;
     SpriteRenderer m_renderer;
+
+    [SerializeField] private ControllerDoor doors;
 
     void Awake()
     {

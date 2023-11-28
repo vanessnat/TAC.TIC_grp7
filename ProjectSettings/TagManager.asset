@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - InstantDialog
   - Fireball
+  - Door
   layers:
   - Default
   - TransparentFX
