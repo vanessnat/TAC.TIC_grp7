@@ -51,6 +51,9 @@ TagManager:
   - name: Obstacles
     uniqueID: 3401236465
     locked: 0
+  - name: Door
+    uniqueID: 2154628717
+    locked: 0
   - name: Player
     uniqueID: 250101475
     locked: 0
