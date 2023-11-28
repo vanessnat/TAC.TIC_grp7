@@ -30351,10 +30351,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1237228815}
-  - component: {fileID: 1237228817}
-  - component: {fileID: 1237228816}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30371,7 +30369,9 @@ Transform:
   m_LocalPosition: {x: -60.6, y: 35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1726393470}
+  - {fileID: 2105444576}
   m_Father: {fileID: 1201527242}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -41999,8 +41999,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1726393470}
   - component: {fileID: 1726393469}
+  - component: {fileID: 1726393471}
+  - component: {fileID: 1726393472}
   m_Layer: 0
-  m_Name: Portes_0
+  m_Name: Door 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42046,7 +42048,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2140338579
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1770592565, guid: 7e1cdf39884e34e4f897b7aeb2a27c0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42070,8 +42072,8 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1201527242}
-  m_RootOrder: 3
+  m_Father: {fileID: 1237228815}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1761424395
 GameObject:
@@ -43602,7 +43604,7 @@ TilemapCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5, y: 2}
+  m_Offset: {x: 5, y: -1}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
 --- !u!1 &1878304815
@@ -45139,8 +45141,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2105444576}
   - component: {fileID: 2105444577}
+  - component: {fileID: 2105444578}
   m_Layer: 0
-  m_Name: Portes_0 (1)
+  m_Name: Door 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45158,8 +45161,8 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1201527242}
-  m_RootOrder: 4
+  m_Father: {fileID: 1237228815}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2105444577
 SpriteRenderer:
@@ -45201,7 +45204,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2140338579
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1770592565, guid: 7e1cdf39884e34e4f897b7aeb2a27c0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
