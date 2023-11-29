@@ -397,6 +397,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &1170471599 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 4794577419427758224, guid: 5100e87a579397240bfc4ed05a77e41f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4794577420060002725}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1446932299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -630,7 +636,7 @@ PrefabInstance:
     - target: {fileID: 2038384663101945850, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
@@ -640,12 +646,12 @@ PrefabInstance:
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16
+      value: -104
       objectReference: {fileID: 0}
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
@@ -685,6 +691,16 @@ PrefabInstance:
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794577419427758225, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: box
+      value: 
+      objectReference: {fileID: 1170471599}
+    - target: {fileID: 4794577419427758225, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: doorLock
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
