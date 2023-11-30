@@ -16,6 +16,9 @@ public struct DialogPage
 {
     public string text;
     public Color color;
+
+    public GameObject objectToActivate;
+    public GameObject objectToDesactivate;
 }
 
 // This class is used to correctly display a full dialog
@@ -23,6 +26,8 @@ public class DialogManager : MonoBehaviour {
 
     public Text m_renderText;
     private List<DialogPage> m_dialogToDisplay;
+
+  //  bool needToUpdatePage = true;
 
     void Awake () {
 
@@ -43,6 +48,10 @@ public class DialogManager : MonoBehaviour {
             this.gameObject.SetActive(true);
         }
     }
+
+    public void ClearDialog() {
+        m_dialogToDisplay.Clear();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -54,7 +63,17 @@ public class DialogManager : MonoBehaviour {
         // Displays the current page
 		if (m_dialogToDisplay.Count > 0)
         {
+            //needToUpdatePage = false;
             m_renderText.text = m_dialogToDisplay[0].text;
+
+            if (m_dialogToDisplay[0].objectToActivate != null) {
+                m_dialogToDisplay[0].objectToActivate.SetActive(true);
+            }
+
+            if (m_dialogToDisplay[0].objectToDesactivate != null) {
+                m_dialogToDisplay[0].objectToDesactivate.SetActive(false);
+            }
+
         } else
         {
             this.gameObject.SetActive(false);
@@ -63,6 +82,7 @@ public class DialogManager : MonoBehaviour {
         // Removes the page when the player presses "space"
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             m_dialogToDisplay.RemoveAt(0);
         }
 	}
