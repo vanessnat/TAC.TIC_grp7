@@ -7,7 +7,7 @@ public class ControllerDoor : MonoBehaviour
     [SerializeField] private Sprite closeDoor;
     [SerializeField] private Sprite openDoor;
     [SerializeField] private SpriteRenderer m_renderer;
-    [SerializeField] private bool doorLock;
+    public bool doorLock;
     [SerializeField] private Collider2D box;
 
     // Start is called before the first frame update

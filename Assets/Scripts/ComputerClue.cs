@@ -14,7 +14,7 @@ public struct ComputerPage
 
 public class ComputerClue : MonoBehaviour
 {
-    public string correctCode = "2303"; // Code correct pour résoudre l'énigme.
+    public string correctCode = "1607"; // Code correct pour résoudre l'énigme.
     public InputField inputField;
     public Text inputFieldText; // Référence à l'InputField dans l'interface utilisateur.
     public Text feedbackText; // Référence au texte de feedback.
@@ -48,8 +48,9 @@ public class ComputerClue : MonoBehaviour
         if (enteredCode == correctCode)
         {
             // Affiche un feedback positif.
-            feedbackText.text = "Énigme résolue !";
+            feedbackText.text = "La porte est ouverte !";
             objectToActiveWhenCorrect.SetActive(true);
+            objectToActiveWhenCorrect.GetComponent<ControllerDoor>().doorLock = false;
             
         }
         else

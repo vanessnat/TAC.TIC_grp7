@@ -32,12 +32,17 @@ public class PlayerBehavior : MonoBehaviour
     Rigidbody2D m_rb2D;
     SpriteRenderer m_renderer;
 
+    private bool triggerChest;
+    [SerializeField] ChestController chest;
+
     void Awake()
     {
         m_rb2D = gameObject.GetComponent<Rigidbody2D>();
         m_renderer = gameObject.GetComponent<SpriteRenderer>();
 
         m_closestNPCDialog = null;
+
+        triggerChest = false;
     }
 
     // This update is called at a very precise and constant FPS, and
@@ -129,6 +134,10 @@ public class PlayerBehavior : MonoBehaviour
             {
                 m_dialogDisplayer.SetDialog(m_closestNPCDialog.GetDialog());
             }
+            else if (triggerChest)
+            {
+                chest.OpenChest();
+            }
             else 
             {
                 ShootFireball();
@@ -217,6 +226,9 @@ public class PlayerBehavior : MonoBehaviour
             {
                 m_dialogDisplayer.SetDialog(instantDialog.GetDialog());
             }
+        } else if (collision.tag == "Chest")
+        {
+            triggerChest = true;
         }
     }
 
