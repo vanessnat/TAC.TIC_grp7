@@ -9,6 +9,7 @@ TagManager:
   - InstantDialog
   - Fireball
   - Door
+  - Chest
   layers:
   - Default
   - TransparentFX
