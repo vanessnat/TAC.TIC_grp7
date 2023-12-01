@@ -691,7 +691,8 @@ MonoBehaviour:
   m_text: "TAC.TIC\n\nCr\xE9dits \n\n\nDesigns et graphimes \n\nCamille DAGUIN\nChlo\xE9
     FAYE\n\n\nD\xE9veloppement\n\nChlo\xE9 FAYE\nDriss LOUDIYI\nNatacha TWYFFELS\n\n\nConception
     \n\nCamille DAGUIN \n\n\nSous la tutelle de \n\nMartine BORNERIE\nOscar MOTTA
-    \nRapha\xEBl MARZACK\n\n\n\n\nMerci d'avoir jou\xE9 \xE0 \n\n\n\n\n\n\n\n\nTAC.TIC\n"
+    \nRapha\xEBl MARZACK\n\nMusic by Aleksey Chistilin from Pixabay\n\n\n\nMerci
+    d'avoir jou\xE9 \xE0 \n\n\n\n\n\n\n\n\nTAC.TIC\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
