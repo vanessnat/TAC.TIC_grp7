@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0.6117647, b: 0.15686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1042,10 +1042,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1451,22 +1451,42 @@ PrefabInstance:
     - target: {fileID: 1104928800683814900, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -196.9422
+      value: -276.09998
       objectReference: {fileID: 0}
     - target: {fileID: 1104928800683814900, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -364.0453
+      value: -419.05
       objectReference: {fileID: 0}
     - target: {fileID: 1104928800683814900, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -13.219421
+      value: -34.65
       objectReference: {fileID: 0}
     - target: {fileID: 1104928800683814900, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -152.02267
+      value: -159.525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104928800683814901, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.34117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104928800683814901, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.23529413
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104928800683814901, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.20392159
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104928800683814901, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1104928801173265398, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
@@ -1562,9 +1582,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8, y: -1.76}
+  m_Offset: {x: 13.8, y: 2}
   serializedVersion: 2
-  m_Radius: 8.3
+  m_Radius: 21.09
 --- !u!1 &1410658398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1851,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.8, y: -1.76}
   serializedVersion: 2
-  m_Radius: 8.3
+  m_Radius: 12.8
 --- !u!1 &1803168538
 GameObject:
   m_ObjectHideFlags: 0
@@ -10246,6 +10266,7 @@ GameObject:
   - component: {fileID: 6876487057664216396}
   - component: {fileID: 6876487057664216395}
   - component: {fileID: 6876487057664216397}
+  - component: {fileID: 6876487057664216398}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_60
   m_TagString: Untagged
@@ -10330,7 +10351,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10344,8 +10365,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14, y: 15}
+  m_Size: {x: 21.3, y: 20.1}
   m_EdgeRadius: 0
+--- !u!114 &6876487057664216398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876487057664216394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8798f359e5d907419ddd7f215369c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderer: {fileID: 6876487056852886825}
+  ItemOpen: {fileID: -1294131387, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
+  ItemClose: {fileID: 1242606344, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
 --- !u!1 &6876487057684380720
 GameObject:
   m_ObjectHideFlags: 0
@@ -10357,6 +10393,7 @@ GameObject:
   - component: {fileID: 6876487057684380721}
   - component: {fileID: 6876487057684380722}
   - component: {fileID: 6876487057684380723}
+  - component: {fileID: 6876487057684380724}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_21 (4)
   m_TagString: Untagged
@@ -10441,7 +10478,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10455,8 +10492,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 16, y: 10}
+  m_Size: {x: 29.91, y: 25.7}
   m_EdgeRadius: 0
+--- !u!114 &6876487057684380724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876487057684380720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8798f359e5d907419ddd7f215369c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderer: {fileID: 6876487057684380722}
+  ItemOpen: {fileID: 1477479655, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
+  ItemClose: {fileID: -1606980880, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
 --- !u!1 &6876487057714179367
 GameObject:
   m_ObjectHideFlags: 0
@@ -10774,6 +10826,7 @@ GameObject:
   - component: {fileID: 6876487057818281487}
   - component: {fileID: 6876487057818281486}
   - component: {fileID: 6876487057818281488}
+  - component: {fileID: 6876487057818281489}
   m_Layer: 0
   m_Name: pixel-cyberpunk-interior_35
   m_TagString: Untagged
@@ -10858,7 +10911,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10872,8 +10925,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 29, y: 12.5}
+  m_Size: {x: 33.27, y: 19.8}
   m_EdgeRadius: 0
+--- !u!114 &6876487057818281489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876487057818281485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8798f359e5d907419ddd7f215369c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderer: {fileID: 6876487057818281486}
+  ItemOpen: {fileID: -956944316, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
+  ItemClose: {fileID: -167161764, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
 --- !u!4 &6876487057827889408
 Transform:
   m_ObjectHideFlags: 0
@@ -12776,7 +12844,7 @@ GameObject:
   - component: {fileID: 6876487058139204017}
   - component: {fileID: 6876487058139204019}
   m_Layer: 0
-  m_Name: pixel-cyberpunk-interior_45
+  m_Name: Frigo Ouvert 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12873,7 +12941,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14, y: 24}
+  m_Size: {x: 19.9, y: 30.4}
   m_EdgeRadius: 0
 --- !u!1 &6876487058170015636
 GameObject:
@@ -16088,8 +16156,9 @@ GameObject:
   - component: {fileID: 6876487058543051518}
   - component: {fileID: 6876487058543051517}
   - component: {fileID: 6876487058543051519}
+  - component: {fileID: 6876487058543051520}
   m_Layer: 0
-  m_Name: pixel-cyberpunk-interior_44
+  m_Name: Frigo Ouvert 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16172,7 +16241,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16186,8 +16255,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14, y: 23}
+  m_Size: {x: 24.2, y: 27.9}
   m_EdgeRadius: 0
+--- !u!114 &6876487058543051520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876487058543051516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8798f359e5d907419ddd7f215369c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderer: {fileID: 6876487058543051517}
+  ItemOpen: {fileID: -717583317, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
+  ItemClose: {fileID: 520278593, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
 --- !u!1 &6876487058543057498
 GameObject:
   m_ObjectHideFlags: 0
@@ -16754,8 +16838,10 @@ GameObject:
   - component: {fileID: 6876487058683934639}
   - component: {fileID: 6876487058683934638}
   - component: {fileID: 6876487058683934640}
+  - component: {fileID: 6876487058683934641}
+  - component: {fileID: 6876487058683934642}
   m_Layer: 0
-  m_Name: pixel-cyberpunk-interior_42
+  m_Name: Placard Ouvert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16853,6 +16939,47 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 29, y: 15}
+  m_EdgeRadius: 0
+--- !u!114 &6876487058683934641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876487058683934637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8798f359e5d907419ddd7f215369c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderer: {fileID: 6876487058683934638}
+  ItemOpen: {fileID: -956944316, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
+  ItemClose: {fileID: -167161764, guid: 4986230dce6d32340b42aeb93af8c544, type: 3}
+--- !u!61 &6876487058683934642
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876487058683934637}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29, y: 15}
+    newSize: {x: 29, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 29, y: 38.2}
   m_EdgeRadius: 0
 --- !u!1 &6876487058684931849
 GameObject:

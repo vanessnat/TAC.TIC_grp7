@@ -136,7 +136,7 @@ public class PlayerBehavior : MonoBehaviour
             }
             else if (triggerChest)
             {
-                chest.OpenChest();
+              //  chest.OpenChest();
             }
             else 
             {
