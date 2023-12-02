@@ -95,7 +95,18 @@ public class PlayerBehavior : MonoBehaviour
             }
         }
     }
-
+    private void Run()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            m_speed = 3f;
+        }
+        else if (Input.GetKeyUp(KeyCode.C))
+        {
+            m_speed = 1f;
+        }
+        
+    }
 
     // This update is called at the FPS which can be fluctuating
     // and should be called for any regular actions not based on
@@ -143,6 +154,9 @@ public class PlayerBehavior : MonoBehaviour
                 ShootFireball();
             }
         }
+
+        Run();
+
     }
 
     // Changes the player sprite regarding it position
