@@ -122,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 45
+        width: 42
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
       name: Portes_1
       rect:
         serializedVersion: 2
-        x: 45
+        x: 48
         y: 0
-        width: 45
+        width: 42
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
