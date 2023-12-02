@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5986705564280282479}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 74.9, y: -20.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 250101475
   m_SortingLayer: 4
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4d1812406f3cf724d9bf26e4afc9ef77, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -693903886, guid: 645bbd2095c6ace4faf0e7ffeb68ecca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,13 +121,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 1
-  m_frontSprite: {fileID: 21300000, guid: 4d1812406f3cf724d9bf26e4afc9ef77, type: 3}
-  m_leftSprite: {fileID: 21300006, guid: 4d1812406f3cf724d9bf26e4afc9ef77, type: 3}
-  m_rightSprite: {fileID: 21300002, guid: 4d1812406f3cf724d9bf26e4afc9ef77, type: 3}
-  m_backSprite: {fileID: 21300004, guid: 4d1812406f3cf724d9bf26e4afc9ef77, type: 3}
+  m_frontSprite: {fileID: -693903886, guid: 645bbd2095c6ace4faf0e7ffeb68ecca, type: 3}
+  m_leftSprite: {fileID: -1933713524, guid: 645bbd2095c6ace4faf0e7ffeb68ecca, type: 3}
+  m_rightSprite: {fileID: -1251235424, guid: 645bbd2095c6ace4faf0e7ffeb68ecca, type: 3}
+  m_backSprite: {fileID: -867057036, guid: 645bbd2095c6ace4faf0e7ffeb68ecca, type: 3}
   m_fireBall: {fileID: 1502969918981896, guid: dd8b7b33984359b49a25a7c46d305262, type: 3}
   m_map: {fileID: 0}
   m_dialogDisplayer: {fileID: 0}
+  chest: {fileID: 0}
 --- !u!58 &5986705564280282481
 CircleCollider2D:
   m_ObjectHideFlags: 0
