@@ -7,6 +7,7 @@ public class ChestController : MonoBehaviour
     [SerializeField] private SpriteRenderer m_renderer;
     [SerializeField] private Sprite chestOpen;
     [SerializeField] private Sprite chestClose;
+    [SerializeField] private ControllerDoor door;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +23,6 @@ public class ChestController : MonoBehaviour
     public void OpenChest()
     {
         m_renderer.sprite = chestOpen;
+        door.doorLock = false;
     }
 }
