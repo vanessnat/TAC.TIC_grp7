@@ -669,6 +669,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4370266223968024469, guid: 7613690ab2365b64cadba7d3507093fa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4370266223968024473, guid: 7613690ab2365b64cadba7d3507093fa,
         type: 3}
       propertyPath: m_RootOrder
@@ -5240,7 +5245,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 45, y: 46}
+    oldSize: {x: 42, y: 46}
     newSize: {x: 45, y: 46}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
