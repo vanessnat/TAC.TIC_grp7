@@ -21,7 +21,7 @@ public class TargetControl : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Fireball") {
+        if (collision.CompareTag("Fireball")) {
 
         }
     }
