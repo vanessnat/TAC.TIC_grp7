@@ -4767,6 +4767,7 @@ Transform:
   - {fileID: 973897269}
   - {fileID: 1940524901}
   - {fileID: 2143453308}
+  - {fileID: 1048872660}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5277,6 +5278,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 462726403}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &462726409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5986705564280282483, guid: 092fde35042f6fc4b90506868f63f42f,
+    type: 3}
+  m_PrefabInstance: {fileID: 462726403}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &463314135
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,10 +5513,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2143453308}
     m_Modifications:
+    - target: {fileID: 2038384662814552783, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2038384662814552784, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 124
+      objectReference: {fileID: 0}
     - target: {fileID: 2038384663101945850, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: m_Name
-      value: Doors
+      value: PrevDoor
       objectReference: {fileID: 0}
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
@@ -5566,11 +5583,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2627726981385941970, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 4794577419427758225, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: box
       value: 
       objectReference: {fileID: 1147835191}
+    - target: {fileID: 5076453427264917489, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_dialogWithPlayer.Array.data[0].text
+      value: "Tu ne peux pas redescendre \xE0 l'\xE9tage inf\xE9rieur. Tu dois sauver
+        le futur !"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5100e87a579397240bfc4ed05a77e41f, type: 3}
 --- !u!1 &488595147
@@ -6360,7 +6388,7 @@ PrefabInstance:
     - target: {fileID: 2038384663101945850, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: m_Name
-      value: Doors (1)
+      value: Doors
       objectReference: {fileID: 0}
     - target: {fileID: 2038384663101945851, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
@@ -6417,11 +6445,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2530376136510727521, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: nextScene
+      value: Scene LAST STAGE
+      objectReference: {fileID: 0}
     - target: {fileID: 4794577419427758225, guid: 5100e87a579397240bfc4ed05a77e41f,
         type: 3}
       propertyPath: box
       value: 
       objectReference: {fileID: 1816340331}
+    - target: {fileID: 4794577419427758230, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794577419427758230, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794577419427758230, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 127.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794577419427758230, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794577419427758231, guid: 5100e87a579397240bfc4ed05a77e41f,
+        type: 3}
+      propertyPath: m_Name
+      value: NextDoor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5100e87a579397240bfc4ed05a77e41f, type: 3}
 --- !u!1 &567505702
@@ -15518,6 +15576,7 @@ GameObject:
   - component: {fileID: 1048872663}
   - component: {fileID: 1048872662}
   - component: {fileID: 1048872661}
+  - component: {fileID: 1048872664}
   m_Layer: 0
   m_Name: Ennemy
   m_TagString: Untagged
@@ -15584,13 +15643,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048872658}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -79.4, y: 305.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 410337878}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1048872661
 MonoBehaviour:
@@ -15605,7 +15664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 1.5
-  target: {fileID: 0}
+  target: {fileID: 462726409}
 --- !u!58 &1048872662
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15643,6 +15702,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1048872664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048872658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb42309633622a54398863dbfaba9fd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextDoor: {fileID: 1816340333}
+  isGone: 0
 --- !u!1 &1055763056
 GameObject:
   m_ObjectHideFlags: 0
@@ -24175,6 +24248,18 @@ BoxCollider2D:
     type: 3}
   m_PrefabInstance: {fileID: 558341572}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1816340333 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4794577419427758225, guid: 5100e87a579397240bfc4ed05a77e41f,
+    type: 3}
+  m_PrefabInstance: {fileID: 558341572}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83f3a4d2380af441b50da770eeec26c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1866175544
 GameObject:
   m_ObjectHideFlags: 0
@@ -26485,16 +26570,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 13, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -2, y: 13, z: 0}
     second:
       serializedVersion: 2
@@ -26517,7 +26592,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 43
+  - m_RefCount: 42
     m_Data: {fileID: 11400000, guid: 96948c8ed3b6cd6468a83166a30d51e8, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 0a06d4f72ec8f2f409c1949b1e5b6201, type: 2}
@@ -26570,7 +26645,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 05b014e60a1c69a4dbf60606a7b59259, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 43
+  - m_RefCount: 42
     m_Data: {fileID: 1327554756, guid: 64c2a7ee2273c4c4ea1cc9cc20d2afbb, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 1823825278, guid: 64c2a7ee2273c4c4ea1cc9cc20d2afbb, type: 3}
@@ -26623,7 +26698,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1558029833, guid: 64c2a7ee2273c4c4ea1cc9cc20d2afbb, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 136
+  - m_RefCount: 135
     m_Data:
       e00: 1
       e01: 0
@@ -26642,7 +26717,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 136
+  - m_RefCount: 135
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
