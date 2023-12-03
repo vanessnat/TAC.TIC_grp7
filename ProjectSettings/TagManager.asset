@@ -10,6 +10,8 @@ TagManager:
   - Fireball
   - Door
   - Chest
+  - Enemy
+  - Target
   layers:
   - Default
   - TransparentFX
