@@ -3696,13 +3696,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 770386a4fa84c2449b9051a8c8f8340f, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 6508978738024157701}
+        m_TargetAssemblyTypeName: ValidateMessage, Assembly-CSharp
+        m_MethodName: Validate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1104928799645152795}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3720,6 +3732,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770386a4fa84c2449b9051a8c8f8340f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whereText: {fileID: 9070704718389701357}
+  whatText: {fileID: 1937971096052919592}
+  howText: {fileID: 2004911943812141044}
 --- !u!1 &7575268089850088764
 GameObject:
   m_ObjectHideFlags: 0
