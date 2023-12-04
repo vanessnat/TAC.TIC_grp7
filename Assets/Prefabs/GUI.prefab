@@ -3733,8 +3733,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770386a4fa84c2449b9051a8c8f8340f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageElements: []
-  messagePrefab: {fileID: 0}
+  messageElements:
+  - {fileID: 9070704718389701357}
+  - {fileID: 1937971096052919592}
+  - {fileID: 2004911943812141044}
+  messagePrefab: {fileID: 5019883688017250994, guid: 66a810f94db5c4f4f81539cf292fd589,
+    type: 3}
   player: {fileID: 0}
   worlds: {fileID: 0}
 --- !u!1 &7575268089850088764
