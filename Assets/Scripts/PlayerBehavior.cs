@@ -251,7 +251,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (collision.transform.CompareTag("Enemy") || collision.transform.CompareTag("Boss") || (collision.transform.CompareTag("MadFireball")))
         {
-            Destroy(this.gameObject);
+            /*Destroy(this.gameObject);*/
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
