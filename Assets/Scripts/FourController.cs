@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class FourController : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    public FrigoController Frigo;
+    public EnemyLVL3 Enemy;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.transform.CompareTag("Player") && (Input.GetKeyDown(KeyCode.Escape)))
+        if (collision.CompareTag("Player"))
         {
-/*            if(FrigoController.)
-*/        }
+            /*if (Input.GetKeyDown(KeyCode.Space))
+            {*/
+                if (Frigo.getPizza)
+                {
+                    Enemy.smellPizza = true;
+                }
+            //}
+        }
     }
 }

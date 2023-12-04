@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class FrigoController : MonoBehaviour
 {
-    public bool getPizza = false;
-    private void OnCollisionEnter2D(Collision2D collision)
+    public bool getPizza;
+
+
+    private void Start()
     {
-        if (collision.transform.CompareTag("Player") && Input.GetKeyDown(KeyCode.Escape))
+        getPizza = false;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
         {
-            getPizza=true;
+            /*if (Input.GetKeyDown(KeyCode.Space))
+            {*/
+                getPizza = true;
+            //}
         }
     }
 }

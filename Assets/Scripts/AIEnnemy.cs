@@ -18,21 +18,22 @@ public class AIEnnemy : MonoBehaviour
     void Start()
     {
         target = waypoints[0];
-        speed = 20f;
+        speed = 50f;
     }
 
     void Update()
     {
-        Move();
+       
     }
 
-    void Move()
+    public void Move()
     {
         Vector3 dir = target.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
         if (Vector3.Distance(transform.position, target.position) < 0.3f)
         {
+            actualSprite.sprite = moveSprite;
             destPoint = (destPoint + 1) % waypoints.Length;
             target = waypoints[destPoint];
             actualSprite.flipX = !actualSprite.flipX;

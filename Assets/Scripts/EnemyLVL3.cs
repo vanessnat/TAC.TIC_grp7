@@ -5,25 +5,28 @@ using UnityEngine;
 public class EnemyLVL3 : MonoBehaviour
 {
     [SerializeField] private ControllerDoor nextDoor;
-    [SerializeField] private bool isGone = false;
-    [SerializeField] private bool smellPizza = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private bool isGone;
+    public bool smellPizza;
+    public AIEnnemy ScriptEnemy;
 
+    private void Start()
+    {
+        smellPizza = false;
+        isGone = false;
+    }
     // Update is called once per frame
     void Update()
     {
-        if (isGone)
-        {
-            nextDoor.doorLock = false;
-        }
 
         if (smellPizza)
         {
+            ScriptEnemy.Move();
+            isGone = true;
+        }
 
+        if (isGone)
+        {
+            nextDoor.doorLock = false;
         }
     }
 }
