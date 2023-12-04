@@ -327,7 +327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -3333}
+  m_AnchoredPosition: {x: 2, y: -2989}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223701379
@@ -405,7 +405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0.00012207031, y: -4004.9297}
+  m_AnchoredPosition: {x: 0.00012207031, y: -4004.93}
   m_SizeDelta: {x: 0, y: 8009.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1595107059
@@ -688,11 +688,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "TAC.TIC\n\nCr\xE9dits \n\n\nDesigns et graphimes \n\nCamille DAGUIN\nChlo\xE9
-    FAYE\n\n\nD\xE9veloppement\n\nChlo\xE9 FAYE\nDriss LOUDIYI\nNatacha TWYFFELS\n\n\nConception
-    \n\nCamille DAGUIN \n\n\nSous la tutelle de \n\nMartine BORNERIE\nOscar MOTTA
-    \nRapha\xEBl MARZACK\n\nMusic by Aleksey Chistilin from Pixabay\n\n\n\nMerci
-    d'avoir jou\xE9 \xE0 \n\n\n\n\n\n\n\n\nTAC.TIC\n"
+  m_text: "Cr\xE9dits \n\n\nDesigns et graphismes \n\nCamille DAGUIN\nChlo\xE9 FAYE\n\n\nD\xE9veloppement\n\nChlo\xE9
+    FAYE\nDriss LOUDIYI\nNatacha TWYFFELS\n\n\nConception \n\nCamille DAGUIN \n\n\nGame
+    Design\n\nDriss LOUDIYI\nNatacha TWYFFELS\n\nSous la tutelle de \n\nRapha\xEBl
+    MARZACK\nMartine BORNERIE\nOscar MOTTA \n\nMusic by Aleksey Chistilin from Pixabay\n\n\n\nMerci
+    d'avoir jou\xE9 \xE0 \n\n\n\n\nTAC.TIC\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
