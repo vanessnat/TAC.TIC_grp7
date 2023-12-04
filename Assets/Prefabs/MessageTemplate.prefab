@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2285163650281054409}
   - component: {fileID: 7649298008109950477}
   - component: {fileID: 3028001266954268168}
+  - component: {fileID: 8875098909940394704}
   m_Layer: 0
   m_Name: MessageTemplate
   m_TagString: NPC
@@ -136,3 +137,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e620a935b19ec45bf6530fbfe89790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &8875098909940394704
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019883688017250994}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 2.7, y: 6.8, z: 2.6000001, w: 4.4}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 31.9, y: 29.5}
+    newSize: {x: 0.16, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 31.9, y: 29.5}
+  m_EdgeRadius: 0
