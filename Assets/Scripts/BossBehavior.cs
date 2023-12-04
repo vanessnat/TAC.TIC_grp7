@@ -10,7 +10,8 @@ public class BossBehavior : MonoBehaviour
     [SerializeField] float timing = 0f;
     [SerializeField] float speed;
     [SerializeField] SpriteRenderer actualSprite;
-    [SerializeField] Sprite rightSprite;
+    [SerializeField] Sprite defaultSprite;
+    [SerializeField] Sprite moveSprite;
 
     public Transform[] waypoints;
     private Transform target;
@@ -31,7 +32,7 @@ public class BossBehavior : MonoBehaviour
 
 
 
-        if (timing > 1f)
+        if (timing > 2f)
         {
             Move();
             if (timing > 4f)
@@ -41,6 +42,7 @@ public class BossBehavior : MonoBehaviour
         }
         else
         {
+            actualSprite.sprite = defaultSprite;
             if (timerShoot > 0.1f)
             {
                 ShootFireball();
@@ -53,6 +55,7 @@ public class BossBehavior : MonoBehaviour
     
     void Move()
     {
+        actualSprite.sprite = moveSprite;
         Vector3 dir = target.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
@@ -60,6 +63,7 @@ public class BossBehavior : MonoBehaviour
         {
             destPoint = (destPoint + 1) % waypoints.Length;
             target = waypoints[destPoint];
+            actualSprite.flipX = !actualSprite.flipX;
         }
     }
     private void ShootFireball()
@@ -82,6 +86,4 @@ public class BossBehavior : MonoBehaviour
             fireBallBehavior.Launch(new Vector2(0f, -1f));
         }
     }
-
-    
 }
