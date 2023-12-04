@@ -620,13 +620,21 @@ MonoBehaviour:
     color: {r: 0, g: 0, b: 0, a: 0}
     objectToActivate: {fileID: 0}
     objectToDesactivate: {fileID: 0}
-  - text: "Cherche le plus d'indices possible pour d\xE9v\xE9rouiller la porte et
-      passer au niveau suivant"
+  - text: "Cherche le plus d'indices possible pour d\xE9verouiller la porte et passer
+      au niveau suivant"
     color: {r: 0, g: 0, b: 0, a: 0}
     objectToActivate: {fileID: 0}
     objectToDesactivate: {fileID: 0}
   - text: "Tu peux utiliser les fl\xE8ches afin de te d\xE9placer et la barre espace
       afin d'int\xE9ragir avec ton environnement"
+    color: {r: 0, g: 0, b: 0, a: 0}
+    objectToActivate: {fileID: 0}
+    objectToDesactivate: {fileID: 0}
+  - text: "Tu peux \xE9galement courir gr\xE2ce \xE0 la touche C"
+    color: {r: 0, g: 0, b: 0, a: 0}
+    objectToActivate: {fileID: 0}
+    objectToDesactivate: {fileID: 0}
+  - text: Pour finir, appuie sur M pour laisser un message
     color: {r: 0, g: 0, b: 0, a: 0}
     objectToActivate: {fileID: 0}
     objectToDesactivate: {fileID: 0}
