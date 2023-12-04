@@ -2257,7 +2257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154719581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 299, y: 293, z: 0}
+  m_LocalPosition: {x: 320, y: 317, z: 0}
   m_LocalScale: {x: 24.8, y: 4.0701456, z: 4.0701456}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3541,7 +3541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286656582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 239, y: 154, z: 0}
+  m_LocalPosition: {x: 244.6, y: 163.9, z: 0}
   m_LocalScale: {x: 24.8, y: 4.0701456, z: 4.0701456}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15895,7 +15895,6 @@ GameObject:
   - component: {fileID: 1048872659}
   - component: {fileID: 1048872663}
   - component: {fileID: 1048872662}
-  - component: {fileID: 1048872661}
   - component: {fileID: 1048872664}
   m_Layer: 0
   m_Name: Graphics
@@ -15971,27 +15970,6 @@ Transform:
   m_Father: {fileID: 359649157}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1048872661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048872658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aeda2260f76f6048b003e19c55145ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  actualSprite: {fileID: 1048872659}
-  defaultSprite: {fileID: -72589037, guid: a589484c942c538499439195c3d131d4, type: 3}
-  moveSprite: {fileID: -278108548, guid: a589484c942c538499439195c3d131d4, type: 3}
-  waypoints:
-  - {fileID: 2072881214}
-  - {fileID: 1852830135}
-  - {fileID: 286656583}
-  - {fileID: 154719582}
 --- !u!58 &1048872662
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16044,7 +16022,15 @@ MonoBehaviour:
   nextDoor: {fileID: 1816340333}
   isGone: 0
   smellPizza: 0
-  ScriptEnemy: {fileID: 1048872661}
+  speed: 0
+  actualSprite: {fileID: 1048872659}
+  defaultSprite: {fileID: -72589037, guid: a589484c942c538499439195c3d131d4, type: 3}
+  moveSprite: {fileID: 908050818, guid: a589484c942c538499439195c3d131d4, type: 3}
+  waypoints:
+  - {fileID: 2072881214}
+  - {fileID: 1852830135}
+  - {fileID: 286656583}
+  - {fileID: 154719582}
 --- !u!1 &1055763056
 GameObject:
   m_ObjectHideFlags: 0
@@ -24613,7 +24599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852830134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19, y: 158, z: 0}
+  m_LocalPosition: {x: -21, y: 164, z: 0}
   m_LocalScale: {x: 24.8, y: 4.0701456, z: 4.0701456}
   m_ConstrainProportionsScale: 1
   m_Children: []
