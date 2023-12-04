@@ -9,12 +9,18 @@ public class BossBehavior : MonoBehaviour
     [SerializeField] float timerShoot = 0f;
     [SerializeField] float timing = 0f;
     [SerializeField] float speed;
+    [SerializeField] SpriteRenderer actualSprite;
+    [SerializeField] Sprite rightSprite;
 
+    public Transform[] waypoints;
+    private Transform target;
+    private int destPoint;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        target = waypoints[0];
+        speed = 20f;
     }
 
     // Update is called once per frame
@@ -23,18 +29,39 @@ public class BossBehavior : MonoBehaviour
         timerShoot += Time.deltaTime;
         timing += Time.deltaTime;
 
-        if (timerShoot > 0.1f)
-        {
-            ShootFireball();
-            timerShoot = 0f;
-        }
+
 
         if (timing > 1f)
         {
+            Move();
+            if (timing > 4f)
+            {
+                timing = 0f;
+            }
+        }
+        else
+        {
+            if (timerShoot > 0.1f)
+            {
+                ShootFireball();
+                timerShoot = 0f;
+            }
+        }
 
+
+    }
+    
+    void Move()
+    {
+        Vector3 dir = target.position - transform.position;
+        transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
+
+        if (Vector3.Distance(transform.position, target.position) < 0.3f)
+        {
+            destPoint = (destPoint + 1) % waypoints.Length;
+            target = waypoints[destPoint];
         }
     }
-
     private void ShootFireball()
     {
         GameObject newFireball = Instantiate(m_fireBall, this.transform) as GameObject;
