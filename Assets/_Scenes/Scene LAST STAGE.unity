@@ -2153,6 +2153,8 @@ MonoBehaviour:
   overload: 0
   isOverload: 0
   spriteRenderer: {fileID: 1201760912}
+  boss: {fileID: 612762576}
+  bossSprite: {fileID: 612762577}
 --- !u!61 &1201760914
 BoxCollider2D:
   m_ObjectHideFlags: 0
