@@ -23,7 +23,7 @@ public class AIEnnemy : MonoBehaviour
 
     void Update()
     {
-       
+        Move();
     }
 
     public void Move()
