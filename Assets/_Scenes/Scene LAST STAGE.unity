@@ -1446,6 +1446,7 @@ GameObject:
   - component: {fileID: 969222530}
   - component: {fileID: 969222532}
   - component: {fileID: 969222531}
+  - component: {fileID: 969222533}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -2035,6 +2036,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &969222533
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969222529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
 --- !u!1 &1201760910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,7 +2079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201760910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 240.4, y: 205.6, z: 0}
+  m_LocalPosition: {x: 240.4, y: 198.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2135,6 +2152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overload: 0
   isOverload: 0
+  spriteRenderer: {fileID: 1201760912}
 --- !u!61 &1201760914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2145,7 +2163,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2313,7 +2331,7 @@ PrefabInstance:
     - target: {fileID: 587829582869312491, guid: 3ec083c0be860b949ac1a29bdbced2f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.9
+      value: 172.8
       objectReference: {fileID: 0}
     - target: {fileID: 587829582869312491, guid: 3ec083c0be860b949ac1a29bdbced2f5,
         type: 3}
