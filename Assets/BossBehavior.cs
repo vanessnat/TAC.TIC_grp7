@@ -7,6 +7,9 @@ public class BossBehavior : MonoBehaviour
 {
     public GameObject m_fireBall = null; // Object the player can shoot
     [SerializeField] float timerShoot = 0f;
+    [SerializeField] float timing = 0f;
+    [SerializeField] float speed;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +21,17 @@ public class BossBehavior : MonoBehaviour
     void Update()
     {
         timerShoot += Time.deltaTime;
+        timing += Time.deltaTime;
 
         if (timerShoot > 0.1f)
         {
             ShootFireball();
             timerShoot = 0f;
+        }
+
+        if (timing > 1f)
+        {
+
         }
     }
 
@@ -46,4 +55,6 @@ public class BossBehavior : MonoBehaviour
             fireBallBehavior.Launch(new Vector2(0f, -1f));
         }
     }
+
+    
 }
