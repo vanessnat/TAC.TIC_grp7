@@ -1159,7 +1159,7 @@ SpriteRenderer:
   m_SortingLayerID: -893730831
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: -72589037, guid: a589484c942c538499439195c3d131d4, type: 3}
+  m_Sprite: {fileID: 532673709, guid: efee4435771c8af42b7e172ebef4db56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1197,8 +1197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d8a72303181e5945a52595f3f060e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &612762580
-CircleCollider2D:
+--- !u!61 &612762580
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1211,8 +1211,18 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29, y: 50}
+    newSize: {x: 29, y: 24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 14.57
+  m_Size: {x: 26.85, y: 48.3}
+  m_EdgeRadius: 1.8
 --- !u!1001 &713582131
 PrefabInstance:
   m_ObjectHideFlags: 0
