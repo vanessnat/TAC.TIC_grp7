@@ -8,6 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Represents the cardinal directions (South, North, West, East)
 public enum CardinalDirections { CARDINAL_S, CARDINAL_N, CARDINAL_W, CARDINAL_E };
@@ -243,6 +244,15 @@ public class PlayerBehavior : MonoBehaviour
         } else if (collision.tag == "Chest")
         {
             triggerChest = true;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Enemy") || collision.transform.CompareTag("Boss") || (collision.transform.CompareTag("MadFireball")))
+        {
+            /*Destroy(this.gameObject);*/
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

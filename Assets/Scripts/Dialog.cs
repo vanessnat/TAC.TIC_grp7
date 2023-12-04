@@ -15,4 +15,15 @@ public class Dialog : MonoBehaviour {
     {
         return m_dialogWithPlayer;
     }
+
+    public void SetOneLineDialog(string message)
+    {
+        m_dialogWithPlayer.Clear();
+
+        DialogPage newPageToAdd = new DialogPage();
+        newPageToAdd.color = Color.black;
+        newPageToAdd.text = message;
+
+        m_dialogWithPlayer.Add(newPageToAdd);
+    }
 }
