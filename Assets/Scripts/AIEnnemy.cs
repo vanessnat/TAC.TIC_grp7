@@ -18,7 +18,7 @@ public class AIEnnemy : MonoBehaviour
     void Start()
     {
         target = waypoints[0];
-        speed = 50f;
+        speed = 100f;
     }
 
     void Update()
