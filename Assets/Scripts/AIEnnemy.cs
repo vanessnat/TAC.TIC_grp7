@@ -1,10 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class AIEnnemy : MonoBehaviour
 {
-    public float attackCooldown = 1.5f; // Délai entre chaque attaque
+    [SerializeField] float speed;
+
+    [SerializeField] SpriteRenderer actualSprite;
+    [SerializeField] Sprite defaultSprite;
+    [SerializeField] Sprite moveSprite;
+
+    public Transform[] waypoints;
+    private Transform target;
+    private int destPoint;
+
+    void Start()
+    {
+        target = waypoints[0];
+        speed = 20f;
+    }
+
+    void Update()
+    {
+        Move();
+    }
+
+    void Move()
+    {
+        Vector3 dir = target.position - transform.position;
+        transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
+
+        if (Vector3.Distance(transform.position, target.position) < 0.3f)
+        {
+            destPoint = (destPoint + 1) % waypoints.Length;
+            target = waypoints[destPoint];
+            actualSprite.flipX = !actualSprite.flipX;
+        }
+    }
+}
+    /*public float attackCooldown = 1.5f; // Délai entre chaque attaque
     public Transform target; // Référence au joueur (à définir dans l'éditeur Unity)
 
     private bool canAttack = true;
@@ -39,4 +74,4 @@ public class AIEnnemy : MonoBehaviour
     {
         canAttack = true; // Réactive l'attaque de l'ennemi
     }
-}
+}*/

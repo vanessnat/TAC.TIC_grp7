@@ -6,7 +6,7 @@ public class EnemyLVL3 : MonoBehaviour
 {
     [SerializeField] private ControllerDoor nextDoor;
     [SerializeField] private bool isGone = false;
-
+    [SerializeField] private bool smellPizza = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +19,11 @@ public class EnemyLVL3 : MonoBehaviour
         if (isGone)
         {
             nextDoor.doorLock = false;
+        }
+
+        if (smellPizza)
+        {
+
         }
     }
 }
