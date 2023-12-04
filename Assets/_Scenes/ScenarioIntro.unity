@@ -185,7 +185,7 @@ PrefabInstance:
     - target: {fileID: 1104928799972537328, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_Name
-      value: GUI (1)
+      value: 'GUI '
       objectReference: {fileID: 0}
     - target: {fileID: 1104928799972537329, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
