@@ -1399,6 +1399,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1104928799376385434, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1588728168}
     - target: {fileID: 1104928799972537328, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_Name
@@ -1498,6 +1503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104928801173265393, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1104928801173265398, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
@@ -1803,6 +1813,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ec083c0be860b949ac1a29bdbced2f5, type: 3}
+--- !u!20 &1588728168 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 587829582869312276, guid: 3ec083c0be860b949ac1a29bdbced2f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588728167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1760856741
 GameObject:
   m_ObjectHideFlags: 0
