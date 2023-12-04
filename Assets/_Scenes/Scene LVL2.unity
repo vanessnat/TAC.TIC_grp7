@@ -1907,6 +1907,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2431987424608721382, guid: 092fde35042f6fc4b90506868f63f42f,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5986705564280282479, guid: 092fde35042f6fc4b90506868f63f42f,
         type: 3}
       propertyPath: m_Name
@@ -1926,7 +1931,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_dialogDisplayer
       value: 
-      objectReference: {fileID: 807687412}
+      objectReference: {fileID: 845901890}
     - target: {fileID: 5986705564280282483, guid: 092fde35042f6fc4b90506868f63f42f,
         type: 3}
       propertyPath: m_RootOrder
@@ -9484,7 +9489,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 807687412}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DialogManager, Assembly-CSharp
         m_MethodName: ClearDialog
         m_Mode: 1
@@ -13969,9 +13974,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -542466337
-  m_SortingLayer: 5
-  m_SortingOrder: 3
+  m_SortingLayerID: 250101475
+  m_SortingLayer: 4
+  m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 15.5, y: 15.5, z: 0}
   m_MaxChunkCount: 16
@@ -14115,6 +14120,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1104928799376385434, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1076612634}
     - target: {fileID: 1104928799972537328, guid: e35eb2fab167c4d4aa992f09c0a930ab,
         type: 3}
       propertyPath: m_Name
@@ -14226,20 +14236,38 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 21212d458f14f9a4ab861b13b6359407,
         type: 3}
+    - target: {fileID: 4809402050774221606, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048164156135677950, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.94419825
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048164156135677950, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.94419825
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048164156135677950, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94419825
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048164156135677950, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048164156135677950, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e35eb2fab167c4d4aa992f09c0a930ab, type: 3}
---- !u!114 &807687412 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1104928801173265397, guid: e35eb2fab167c4d4aa992f09c0a930ab,
-    type: 3}
-  m_PrefabInstance: {fileID: 807687411}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ce40368f7918b74fae52f5adcaa1e2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &807687413 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1104928799376385435, guid: e35eb2fab167c4d4aa992f09c0a930ab,
@@ -14384,6 +14412,18 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &845901890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2195966364391318551, guid: e35eb2fab167c4d4aa992f09c0a930ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 807687411}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce40368f7918b74fae52f5adcaa1e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &868171681
 GameObject:
   m_ObjectHideFlags: 0
@@ -15363,6 +15403,76 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!1 &972746408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972746409}
+  - component: {fileID: 972746411}
+  - component: {fileID: 972746410}
+  m_Layer: 0
+  m_Name: DialogChest
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &972746409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972746408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3161354143464969881}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &972746410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972746408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c60eb2fa0558e418f27e555c8aff5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dialogWithPlayer:
+  - text: "Tu as trouv\xE9 une clef et une arme !"
+    color: {r: 0, g: 0, b: 0, a: 0}
+    objectToActivate: {fileID: 972746408}
+    objectToDesactivate: {fileID: 0}
+  - text: (Tire avec la touche espace)
+    color: {r: 0, g: 0, b: 0, a: 0}
+    objectToActivate: {fileID: 0}
+    objectToDesactivate: {fileID: 0}
+--- !u!58 &972746411
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972746408}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.43}
+  serializedVersion: 2
+  m_Radius: 9
 --- !u!114 &976757765 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4794577419427758225, guid: 5100e87a579397240bfc4ed05a77e41f,
@@ -17884,6 +17994,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!20 &1076612634 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 587829582869312276, guid: 3ec083c0be860b949ac1a29bdbced2f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1828788137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1149634107
 GameObject:
   m_ObjectHideFlags: 0
